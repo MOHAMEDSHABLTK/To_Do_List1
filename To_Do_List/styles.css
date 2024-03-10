@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/back6.jpg'); /* URL of the background image */
+    background-size: cover; /* Cover the entire element with the background image */
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    overflow: hidden;
+   
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 9px;
+    box-shadow: 0 0 10px #0000001a;
+    background-image: url('images/back5.jpg'); /* Linear gradient for fade effect */
+    background-size: cover; /* Cover the entire element with the background image */
+   
+}
+
+
+
+h2 {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 700;
+    font-weight: 700;
+    color: #ccc;
+    text-shadow: 10px 10px 9px rgb(6, 6, 6);
+}
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+button {
+    padding: 10px;
+    border: none;
+    background-color: #3d413e;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    color:#ccc
+}
+li {
+    padding: 10px;
+    border-bottom: 1px solid #dac1c1;
+    color:#fff
+}
+.delete-btn {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    float: right;
+}
